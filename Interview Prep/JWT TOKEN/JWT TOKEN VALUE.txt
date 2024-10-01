@@ -1,0 +1,41 @@
+{
+  "exp": 1674571613,
+  "iat": 1674571313,
+  "jti": "674012d5-b286-4e57-8ba6-8c0513112fec",
+  "iss": "https://sso-test.mmihealth.co.za/auth/realms/health-cm-test",
+  "aud": "realm-management",
+  "sub": "3d118b7a-f183-41cc-b510-365e4d7c96c1",
+  "typ": "Bearer",
+  "azp": "pmb-app",
+  "acr": "1",
+  "realm_access": {
+    "roles": [
+      "owner",
+      "pmb-service-recovery-team",
+      "walk-in-centre",
+      "pmb-enquiries-management",
+      "call-centre",
+      "pmb-service-provider-team",
+      "rest-all",
+      "kie-server",
+      "user",
+      "claims-back-office",
+      "pmb-customer-experience-management"
+    ]
+  },
+  "resource_access": {
+    "realm-management": {
+      "roles": [
+        "view-users",
+        "query-groups",
+        "query-users"
+      ]
+    }
+  },
+  "scope": "email profile",
+  "clientId": "pmb-app",
+  "clientHost": "10.6.128.105",
+  "email_verified": false,
+  "preferred_username": "service-account-pmb-app",
+  "clientAddress": "10.6.128.105"
+}
