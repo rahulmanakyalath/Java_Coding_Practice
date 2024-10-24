@@ -1,6 +1,7 @@
 import ClassBased.ComparableAndComparator;
 import DataStructure.Stacks;
 import DateManipulation.DateAndTime;
+import Leatcode150.ArrayAndString.MaxProfit;
 import Leatcode150.ArrayAndString.RemoveDuplicatesNums;
 import Leatcode150.ArrayAndString.Remove_Element;
 import StringQuestions.FirstNonRepeatingCharacter;
@@ -61,11 +62,14 @@ public class Implementer {
 //        Remove_Element re = new Remove_Element();
 //       System.out.println(re.removeElement(new int[]{1, 2, 2,4, 5, 6, 2},2));
 
-        ReverseWords rv = new ReverseWords();
-       System.out.println(rv.reverseWords3("     Rahul            is            coding   "));
+//        ReverseWords rv = new ReverseWords();
+//       System.out.println(rv.reverseWords3("     Rahul            is            coding   "));
+//
+//        RemoveDuplicatesNums rm =new RemoveDuplicatesNums();
+//
+//        rm.removeDuplicates(new int[]{1,1, 2,2, 3,3,3,4,2,3,4,5,6,7,7,7,8,8,5, 4, 5});
+        MaxProfit maxProfit =new MaxProfit();
+        System.out.println(maxProfit.maxProfit(new int[]{7,1,5,3,6,4}));
 
-        RemoveDuplicatesNums rm =new RemoveDuplicatesNums();
-
-        rm.removeDuplicates(new int[]{1,1, 2,2, 3,3,3,4,2,3,4,5,6,7,7,7,8,8,5, 4, 5});
     }
 }
