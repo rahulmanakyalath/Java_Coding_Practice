@@ -1,6 +1,7 @@
 import ClassBased.ComparableAndComparator;
 import DataStructure.Stacks;
 import DateManipulation.DateAndTime;
+import Leatcode150.ArrayAndString.LengthOfLastWord;
 import Leatcode150.ArrayAndString.MaxProfit;
 import Leatcode150.ArrayAndString.RemoveDuplicatesNums;
 import Leatcode150.ArrayAndString.Remove_Element;
@@ -68,8 +69,11 @@ public class Implementer {
 //        RemoveDuplicatesNums rm =new RemoveDuplicatesNums();
 //
 //        rm.removeDuplicates(new int[]{1,1, 2,2, 3,3,3,4,2,3,4,5,6,7,7,7,8,8,5, 4, 5});
-        MaxProfit maxProfit =new MaxProfit();
-        System.out.println(maxProfit.maxProfit(new int[]{7,1,5,3,6,4}));
+//        MaxProfit maxProfit =new MaxProfit();
+//        System.out.println(maxProfit.maxProfit(new int[]{7,1,5,3,6,4}));
+
+        LengthOfLastWord lw = new LengthOfLastWord();
+        System.out.println(lw.lengthOfLastWord(" kumar"));
 
     }
 }
