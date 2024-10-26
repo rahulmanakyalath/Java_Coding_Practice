@@ -1,10 +1,7 @@
 import ClassBased.ComparableAndComparator;
 import DataStructure.Stacks;
 import DateManipulation.DateAndTime;
-import Leatcode150.ArrayAndString.LengthOfLastWord;
-import Leatcode150.ArrayAndString.MaxProfit;
-import Leatcode150.ArrayAndString.RemoveDuplicatesNums;
-import Leatcode150.ArrayAndString.Remove_Element;
+import Leatcode150.ArrayAndString.*;
 import StringQuestions.FirstNonRepeatingCharacter;
 import StringQuestions.ReverseWords;
 
@@ -72,8 +69,13 @@ public class Implementer {
 //        MaxProfit maxProfit =new MaxProfit();
 //        System.out.println(maxProfit.maxProfit(new int[]{7,1,5,3,6,4}));
 
-        LengthOfLastWord lw = new LengthOfLastWord();
-        System.out.println(lw.lengthOfLastWord(" kumar"));
+//        LengthOfLastWord lw = new LengthOfLastWord();
+//        System.out.println(lw.lengthOfLastWord(" kumar"));
+//
+//        RotateArray rt = new RotateArray();
+//        rt.reverse4(new int[]{1,2,3,4,5,6,7},5);//{5,4,3,2,1}//{5,4,1,2,3}
+        LongestCommonPrefix lcp = new LongestCommonPrefix();
+        System.out.println(lcp.longestCommonPrefix2(new String[]{"ab","a"}));
 
     }
 }
