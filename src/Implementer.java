@@ -2,6 +2,11 @@ import ClassBased.ComparableAndComparator;
 import DataStructure.Stacks;
 import DateManipulation.DateAndTime;
 import Leatcode150.ArrayAndString.*;
+import Leatcode150.HashMap.Anagram;
+import Leatcode150.HashMap.ContainsDuplicate;
+import Leatcode150.HashMap.IsIsomorphic;
+import Leatcode150.HashMap.WordPattern;
+import Leatcode150.MathFuctions.SquareRoot;
 import StringQuestions.FirstNonRepeatingCharacter;
 import StringQuestions.ReverseWords;
 
@@ -74,8 +79,18 @@ public class Implementer {
 //
 //        RotateArray rt = new RotateArray();
 //        rt.reverse4(new int[]{1,2,3,4,5,6,7},5);//{5,4,3,2,1}//{5,4,1,2,3}
-        LongestCommonPrefix lcp = new LongestCommonPrefix();
-        System.out.println(lcp.longestCommonPrefix2(new String[]{"ab","a"}));
-
+//        LongestCommonPrefix lcp = new LongestCommonPrefix();
+////        System.out.println(lcp.longestCommonPrefix2(new String[]{"ab","a"}));
+//        WordPattern wp =new WordPattern();
+//
+//       System.out.println(wp.wordPattern3("abba","dog cat cat dog"));
+//        IsIsomorphic is = new IsIsomorphic();
+//        System.out.println(is.isIsomorphic("badc","baba"));
+//        ContainsDuplicate cd =new ContainsDuplicate();
+//        System.out.println(cd.containsNearbyDuplicate(new int[]{1,0,1,1},1));
+//        Anagram an = new Anagram();
+//        System.out.println(an.isAnagram("anagram","nagaram"));
+        SquareRoot sq = new SquareRoot();
+        System.out.println(sq.mySqrt(214748364));
     }
 }
